@@ -3,4 +3,11 @@ using namespace std;
 
 int main()
 {
+    // i = increment
+    int num;
+    cin >> num;
+    for (int i = 0; i <= num; i++)
+    {
+        cout << i << endl;
+    }
 }
