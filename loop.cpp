@@ -22,14 +22,49 @@ using namespace std;
 //     }
 //     cout << "sum =" << sum << endl;
 // }
+// int main()
+// {
+//     int x;
+//     cin >> x;
+//     int fact = 1;
+//     for (int i = 1; i <= x; i++)
+//     {
+//         fact *= i;
+//     }
+//     cout << "fact =" << fact << endl;
+// }
+// int main()
+// {
+//     int x;
+//     cin >> x;
+//     int count = 0;
+//     for (int i = 1; i <= x; i++)
+//     {
+//         if (x % i == 0)
+//         {
+//             count++;
+//         }
+//     }
+//     if (count == 2)
+//     {
+//         cout << x << " is a prime number";
+//     }
+//     else
+//     {
+//         cout << x << " is not a prime number";
+//     }
+// }
+
 int main()
 {
-    int x;
-    cin >> x;
-    int fact = 1;
-    for (int i = 1; i <= x; i++)
+    // Multiplication table
+    for (int i = 1; i <= 12; i++)
     {
-        fact *= i;
+        for (int j = 1; j <= 12; j++)
+        {
+            cout << j << " * " << i << " = " << j * i << endl;
+        }
+        cout << "\n--------------------\n"
+             << endl;
     }
-    cout << "fact =" << fact << endl;
 }
