@@ -3,11 +3,13 @@ using namespace std;
 
 int main()
 {
-    // i = increment
-    int num;
-    cin >> num;
-    for (int i = 0; i <= num; i++)
+    int count = 0;
+    for (int i = 1; i <= 10; i++)
     {
-        cout << i << endl;
+        if (i % 2 == 0 || i % 3 == 0)
+        {
+            count++;
+        }
     }
+    cout << count << endl;
 }
