@@ -33,17 +33,6 @@ int main()
     //              << endl;
     //     }
 
-    // squar
-    // int x;
-    // cin >> x;
-    // for (int i = 1; i <= x; i++)
-    // {
-    //     for (int j = 1; j <= x; j++)
-    //     {
-    //         cout << "*";
-    //     }
-    //     cout << endl;
-    // }
     // int x;
     // cin >> x;
     // int i = 1;
@@ -55,12 +44,25 @@ int main()
     //     }
     //     i++;
     // }
-    for (int i = 1; i <= 10; i++)
+    // for (int i = 1; i <= 10; i++)
+    // {
+    //     if (i == 4)
+    //     {
+    //         break;
+    //         // continue;
+    //     }
+    //     cout << i << endl;
+    // }
+
+    // squar
+    int x;
+    cin >> x;
+    for (int i = 1; i <= x; i++)
     {
-        if (i == 4)
+        for (int j = 1; j <= x; j++)
         {
-            break;
+            cout << "*";
         }
-        cout << i << endl;
+        cout << endl;
     }
 }
