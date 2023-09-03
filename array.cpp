@@ -3,37 +3,21 @@ using namespace std;
 
 int main()
 {
-
-    // int arr[10];
-    // for (int i = 0; i < 10; i++)
-    // {
-    //     cin >> arr[i];
-    //     if(arr[i] / 2){
-    //         cout << arr[i] << "is a prime number" << endl;
-    //     }else{
-    //         cout << arr[i] << "not a prime number" << endl;
-    //     }
-    // }
-
-    // ================================= * =================================
-
-    // int x;
-    // cin >> x;
-    // int count = 0;
-
-    // for (int j = 0; j <= x; j++)
-    // {
-    //     if (x % j == 0)
-    //     {
-    //         count++;
-    //     }
-    // }
-    // if (count == 2)
-    // {
-    //     cout << x << "prime number\n";
-    // }
-    // else
-    // {
-    //     cout << x << "not prime number\n";
-    // }
+    // Multi Dimantion Array
+    int arr[4][3];
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            cin >> arr[i][j];
+        }
+    }
+    cout << "\n----------------\n";
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            cout << arr[i][j];
+        }
+    }
 }
