@@ -28,6 +28,14 @@ diffrent between if condition & switch case ?
         // mean
         // z = ++ then 5
         cout = z=6, x=6
+    what's diffrent between overloading and overwriting?
+
+    overloading is concept in programing allow us to make two function with same
+    name but with diffrent numbers of params / types / order.
+
+
+
+
 
 
 -->
